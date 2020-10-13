@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 400px;
+    margin: 20px auto;
+}
+.windows {
+    width: 400px;
+    height: 300px;
+
+    overflow: hidden;
+}
+.imgs {
+    width: 400px;
+    display: flex;
+    align-items: start;
+    margin-left: -400px;
+    transition: all 0.5s;
+}
+
+.buttons {
+    text-align: center;
+}
